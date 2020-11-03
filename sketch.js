@@ -39,7 +39,12 @@ function setup(){
 function draw(){
     background(129, 66, 245);
     Engine.update(engine);
-   
+   textSize(50)
+    stroke("black")
+    strokeWeight(3)
+    fill("white") 
+    textFont("Collona mt")
+    text("Press space to get second chance",200,150)
     can1.display();
     can2.display();
     can3.display();
