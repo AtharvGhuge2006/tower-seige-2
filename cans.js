@@ -1,7 +1,7 @@
 class Can{
   constructor(x,y,width,height){
   var options={
-     restitution:1,
+     restitution:0.5,
      friction: 1,
      density:1
   
