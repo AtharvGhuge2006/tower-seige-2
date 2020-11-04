@@ -43,7 +43,7 @@ function draw(){
     stroke("black")
     strokeWeight(3)
     fill("white") 
-    textFont("Collona mt")
+    textFont("Colonna mt")
     text("Press space to get second chance",200,150)
     can1.display();
     can2.display();
