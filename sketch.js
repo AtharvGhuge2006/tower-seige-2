@@ -77,5 +77,6 @@ function mouseDragged(){
 
 
         if(keyCode===32){
-    chain.attach(ball.body)
+     Matter.Body.setPosition(ball.body,{x:250,y:350})
+     chain.attach(ball.body)
         }}
